@@ -1,0 +1,81 @@
+#signInForm, #messageForm {
+	margin:0px;
+	margin-bottom:1px;
+}
+#userName {
+	width: 150px;
+	height: 22px;
+	border: 1px teal solid;
+	float:left;
+}
+#signInButt {
+	width: 60px;
+	height: 22px;
+}	
+#signInName{
+	font-family:Tahoma;
+	font-size:12px;
+	color:orange;
+}
+#chatBox {
+	font-family:tahoma;
+	font-size:12px;
+	color:black;
+	border: 1px teal solid;
+	height: 225px;
+	width: 350px;
+	overflow: scroll;
+	position: fixed;
+	right:1%;
+	z-index: 500;
+	bottom:109px;
+
+}
+#boxchat {
+	position:fixed;
+
+}
+#usersOnLine{
+	font-family:tahoma;
+	font-size:14;
+	color:orange;
+	border:1px teal solid;
+	width:150px;
+	height:225px;
+	overflow:scroll;
+	margin-left:1px;
+}
+#message {
+	width: 350px;
+	height:60px;
+	border: 1px teal solid;
+	position: fixed;
+	right:1%;
+	z-index: 500;
+	bottom:50px;
+}
+#send {
+	width: 64px;
+	height: 22px;
+	float:right;
+	margin-top:1px;
+	position: fixed;
+	right:1%;
+	z-index: 500;
+	white-space: nowrap;
+	padding-top:19px;
+	padding-bottom:40px;
+	bottom:50px;
+	color: #fff;
+background-color: #1A82C3;
+
+text-decoration: none;
+border: 1px solid transparent;
+}
+#serverRes{
+	width:150px;
+	height:22px;
+	border: 1px teal solid;
+	float:left;
+	margin:1px;
+}
