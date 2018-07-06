@@ -12,13 +12,14 @@
 								  		 
                   <ul class="rd-navbar-nav">
 				  <div id="erreur" class="alert alert-danger " role="alert" style="display:none;width:40%; margin-bottom:0px; margin-top:5px; margin-left:3%">Login ou mot de passe incorrect</div>
-<li class="active"><a href="index.php">
+                        <li class="active"><a href="index.php">
                         <div class="icon icon-sm icon-default thin-ico thin-icon-home"></div><span class="nav-link">Accueil</span></a></li>
-                    <li><a href="about_us.php">
-                        <div class="icon icon-sm icon-default thin-ico thin-icon-chat"></div><span class="nav-link">A propos</span></a>
-                   
-                    </li>
-                    <li><a >
+                        
+						<li><a href="about_us.php">
+                             <div class="icon icon-sm icon-default thin-ico thin-icon-chat"></div><span class="nav-link">A propos</span></a>
+                        </li>
+						
+                       <li><a>
                         <div class="icon icon-sm icon-default thin-ico thin-icon-star"></div><span class="nav-link">Skills</span></a>
 						<ul class="rd-navbar-dropdown">
                              <li><a href="python.php">Python</a></li>
@@ -42,8 +43,8 @@
                         <div class="icon icon-sm icon-default thin-ico thin-icon-bell"></div><span class="nav-link">Activities</span></a></li>
                     <li><a href="news.html">
                         <div class="icon icon-sm icon-default thin-ico thin-icon-picture"></div><span class="nav-link">News & Events</span></a></li>-->
-                    <li><a href="contact.php">
-                        <div class="icon icon-sm icon-default thin-ico thin-icon-email-open"></div><span class="nav-link">Contact</span></a></li>
+                        <li><a href="contact.php">
+                           <div class="icon icon-sm icon-default thin-ico thin-icon-email-open"></div><span class="nav-link">Contact</span></a></li>
 						<li>
 						
 		<?php
@@ -58,6 +59,10 @@ if (isset($_SESSION['login'] ) && isset($_SESSION['password'] )){
 						}
 					?>	
 						</li>
+						
+						<li><a href="CodeEditor.php">
+                           <span class="nav-link btn btn-primary" style="background:#214f87;padding:20px;"> <i class="fas fa-code"></i> <br>Editeur de code</span></a></li>
+						<li>
              
 	
 	
